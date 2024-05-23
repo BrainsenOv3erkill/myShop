@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Dogtown;
+  src: url(C:\Users\wille\Cars\CARS\autowagen-app\src\styles\dogtown-typewriter\Dogtown.ttf);
+}
+
+body {
+  background-color: rgb(160, 160, 160);
+}
+
+.product {
+  font-family: Dogtown;
+    color: rgb(44, 44, 44);
+    border: 1px solid #d1d1d1;
+    padding: 16px;
+    text-align: center;
+    margin: 16px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-image {
+    width: 300px;
+    height: auto;
+  }
+  
+  h2 {
+    color: rgba(60, 60, 60, 0.84);
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+  
+  p {
+    color:rgb(24, 24, 24);
+    margin: 0.5em 0;
+  }
+  
