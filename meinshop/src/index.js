@@ -6,6 +6,7 @@ import Product from "./components/Product";
 import products from "./products";
 
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -26,6 +27,7 @@ root.render(
           preis={product.preis}
           imageURL={product.imageURL}
           menge={product.menge}
+          initialTimer={product.timer}
         />
       ))}
     </div>
