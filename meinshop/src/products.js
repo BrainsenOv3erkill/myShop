@@ -14,6 +14,12 @@ const products = [
       menge: 5,
     },
     {
+      name: 'Schaufel',
+      preis: 23.49,
+      imageURL: 'https://bilder.obi.at/d0a60003-3a79-4579-bf2b-a2bc7800db99/pr07F/646477_picture1.jpg',
+      menge: 7,
+    },
+    {
       name: 'Säge',
       preis: 159.99,
       imageURL: 'https://bilder.obi.at/ae0a2dce-be3e-4fdb-a21f-be25981de5ac/pr07F/306868_1223_uc4041a_1.jpg',
