@@ -7,8 +7,11 @@ body {
   background-color: rgb(160, 160, 160);
 }
 
+
+
 .product {
-  font-family: Dogtown;
+    background-color: rgb(123, 123, 123);
+    font-family: Dogtown;
     color: rgb(44, 44, 44);
     border: 1px solid #d1d1d1;
     padding: 16px;
@@ -26,10 +29,21 @@ body {
     color: rgba(60, 60, 60, 0.84);
     font-size: 1.5em;
     margin: 0.5em 0;
+    
   }
   
   p {
-    color:rgb(24, 24, 24);
+    color:rgb(32, 32, 32);
     margin: 0.5em 0;
   }
-  
+  .product:hover {
+  background-color: #f1f1f1; /* Change background color on hover */
+}
+
+.product:hover h2 {
+  color: #ff0000; /* Change h2 color on hover */
+}
+
+.product:hover p {
+  color: #0000ff; /* Change p color on hover */
+}
