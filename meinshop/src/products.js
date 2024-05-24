@@ -25,6 +25,18 @@ const products = [
       imageURL: 'https://bilder.obi.at/ae0a2dce-be3e-4fdb-a21f-be25981de5ac/pr07F/306868_1223_uc4041a_1.jpg',
       menge: 8,
     },
+    {
+      name: 'Tonne',
+      preis: 44.99,
+      imageURL: 'https://bilder.obi.at/75d3ee6e-cd2e-4bd9-adc7-e0e4655e2347/pr07F/123265_4669_01.jpg',
+      menge: 3,
+    },
+    {
+      name: 'Säure',
+      preis: 49.95,
+      imageURL: 'https://i.hood.de/fit-in/3000x3000/filters:no_upscale()/images/19878/198781898.jpg',
+      menge: 13,
+    },
   ];
   
   export default products;
