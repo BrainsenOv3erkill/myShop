@@ -3,7 +3,7 @@ import "../styles/Product.css";
 import useTimer from './useTimer';
 
 
-const Product = ({ name, preis, imageURL, menge, initialTimer }) => {
+const Product = ({ name, preis, imageURL, menge, initialTimer, addToCart }) => {
   const timer = useTimer(initialTimer);
 
   const formatTime = (seconds) => {
@@ -20,7 +20,7 @@ const Product = ({ name, preis, imageURL, menge, initialTimer }) => {
       <p>Preis: {preis} €</p>
       <p>Auf Lager: {menge}</p>
       <p>Verfügbar für: {formatTime(timer)}</p>
-      
+      <button onClick={() => addToCart({ name, preis })}>Add to cart</button>
     </div>
   );
 };

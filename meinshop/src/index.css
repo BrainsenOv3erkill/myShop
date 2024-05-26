@@ -15,8 +15,27 @@ body {
 }
 
 
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-.container {
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3;
+  padding: 20px;
+}
+
+.warenkorb {
+  flex: 1;
+  padding: 20px;
+  background-color: #939292;
+  border-left: 1px solid #585858;
+}
+
+/*.container {
 
   
   display: flex;
@@ -24,4 +43,4 @@ body {
   justify-content: center;
   padding: 20px;
 }
-
+*/
